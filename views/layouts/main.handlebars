@@ -28,18 +28,12 @@
           
     </center>
     
-      <!-- Burger Content from index.handlebars -->
       {{{body}}}
 
-      <!-- Input New Burgers Form -->
-      <form action="burger/create" method="POST"> 
-        
-        <!-- Text Area Input -->
+      <form action="burger/create" method="POST">   
         <div class="row">
-          <!-- Empty Div to help center textarea -->
           <div class="col-md-3"></div> 
 
-          <!-- Burger Input Box -->
           <div class="form-group col-md-6">
             <textarea class="form-control" type="text" columns="6" rows="2" id="new_burger required value="" name="burger_name"></textarea>
           </div>
@@ -47,7 +41,6 @@
           <div class="col-md-3"></div> 
         </div>
       
-        <!-- Submit Button -->
         <center>
           <button id="submit-button" type="submit" class="btn btn-danger">Make Da Burger!</button>
           <center><label for="new_burger" class="submitFont">Enter a burger you would like to eat. Click the "Make Da Burger!" button.</label></center>
